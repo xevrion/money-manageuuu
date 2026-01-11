@@ -21,7 +21,7 @@
 - [Development](#development)  
 - [Testing](#testing)  
 - [Deployment](#deployment)  
-- [API (AI‑assisted suggestions)](#api-ai‑assisted-suggestions)  
+- [API – AI‑Assisted Suggestions](#api-%E2%80%93-ai%E2%80%93assisted-suggestions)  
 - [Contributing](#contributing)  
 - [Roadmap](#roadmap)  
 - [License & Credits](#license--credits)  
@@ -129,6 +129,8 @@ Create a `.env.local` file in the project root (same level as `package.json`):
 # .env.local
 REACT_APP_GEMINI_API_KEY=YOUR_GOOGLE_GENERATIVE_AI_KEY
 ```
+
+*The `.env*` files are listed in `.gitignore` (the recent commit added this rule), so they will **not** be committed to the repository.*  
 
 > The `REACT_APP_` prefix is required for CRA to expose the variable to the browser.
 
@@ -360,4 +362,4 @@ furnished to do so, subject to the following conditions…
 
 ---  
 
-*Happy budgeting!*  
+*Happy budgeting!*
